@@ -7,9 +7,9 @@ class DatabaseOperations:
     def __init__(self):
         # Initialize database connection and cursor.
         self.connection = psycopg2.connect(
-            dbname="locale",
-            user="jordan",
-            password="jordan",
+            dbname="dbname",
+            user="user",
+            password="password",
             host="localhost"
         )
         self.cursor = self.connection.cursor()

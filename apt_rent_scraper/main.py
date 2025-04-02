@@ -2,7 +2,7 @@ from scraper import ApartmentScraper
 from dbops import DatabaseOperations        
 
 def main():
-    url = "https://sightmap.com/embed/4yjp2o9zwxl"
+    url = "https://sightmap.com/embed/apt_building"
     scraper = ApartmentScraper(url)
     db = DatabaseOperations()
     
